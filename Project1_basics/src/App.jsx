@@ -2,6 +2,10 @@ import { use, useEffect, useState } from "react";
 
 import "./App.css";
 import Counter from "./component/Counter";
+import Users from "./component/Users"
+// import ArbindData from "./component/ArbindData";
+import ArbindData from "./component/useContextEg/ArbindData";
+import UserInfo from "./component/zustand/UserInfo";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -49,7 +53,16 @@ function App() {
 
   return (
     
-          <Counter/>
+       <div>
+           <Counter/>
+          
+          <Users/>
+
+          <ArbindData/>
+
+
+          <UserInfo/>
+       </div>
   );
 }
 

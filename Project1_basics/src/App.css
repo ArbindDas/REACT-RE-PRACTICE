@@ -6,4 +6,44 @@
   font-style: var(--font-sans)
 }
 
+body{
+/* background-color: #121212; */
+background-color: #000;
+}
 
+
+.CounterMainContainer{
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  
+}
+
+.leftContainer{
+  gap: 10PX;
+  background-color: slategray;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.leftContainer > p{
+   text-align: center;
+}
+
+.rightContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  background-color: darkblue;
+
+}
