@@ -6,6 +6,8 @@ import Users from "./component/Users"
 // import ArbindData from "./component/ArbindData";
 import ArbindData from "./component/useContextEg/ArbindData";
 import UserInfo from "./component/zustand/UserInfo";
+// import DataCounter from "./Data/DataCounter";
+import DataCounter from "./Data/DataCounter";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -62,6 +64,8 @@ function App() {
 
 
           <UserInfo/>
+
+          <DataCounter/>
        </div>
   );
 }
